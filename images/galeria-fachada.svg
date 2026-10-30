@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="gfTitle">
+  <title id="gfTitle">Estudo visual da fachada da Catedral de São Jorge</title>
+  <defs>
+    <linearGradient id="gsSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#132a45"/>
+      <stop offset=".55" stop-color="#76524c"/>
+      <stop offset="1" stop-color="#dfa86d"/>
+    </linearGradient>
+    <linearGradient id="gsStone" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#e1d0b1"/>
+      <stop offset=".55" stop-color="#b49d7c"/>
+      <stop offset="1" stop-color="#75654f"/>
+    </linearGradient>
+    <linearGradient id="gsGold" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#f7e7ab"/>
+      <stop offset=".45" stop-color="#cfa552"/>
+      <stop offset="1" stop-color="#775021"/>
+    </linearGradient>
+    <radialGradient id="gsLight">
+      <stop offset="0" stop-color="#fff1ba" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f0b767" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="gGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#gsSky)"/>
+  <circle cx="600" cy="560" r="360" fill="url(#gsLight)" filter="url(#gGlow)"/>
+  <g fill="none" stroke="#d7b98e" opacity=".14" stroke-width="25" filter="url(#gGlow)">
+    <path d="M0 280c220-80 353 28 576-8s351-66 624-18"/>
+    <path d="M0 385c200-62 340 14 550-25s400-44 650 5"/>
+  </g>
+  <path d="M0 735c230-55 410-30 600-12 202 19 402 8 600-20v197H0Z" fill="#112033"/>
+  <path d="M120 900V539L260 455l140 84v361Z" fill="#5b5046"/>
+  <path d="M800 900V539l140-84 140 84v361Z" fill="#5b5046"/>
+  <path d="M275 900V349l115-69 115 69v551Z" fill="url(#gsStone)"/>
+  <path d="M695 900V349l115-69 115 69v551Z" fill="url(#gsStone)"/>
+  <path d="M365 900V465h470v435Z" fill="#c3ae8b"/>
+  <path d="M365 465h470l-38-28H403Z" fill="#e1d0b1"/>
+  <g fill="#4a3b31">
+    <path d="M479 900V693c0-55 53-99 121-99s121 44 121 99v207Z"/>
+    <path d="M507 900V701c0-37 41-67 93-67s93 30 93 67v199Z" fill="#221d1d"/>
+    <path d="M600 642v258M511 780h178" stroke="#d6b369" stroke-width="4" opacity=".9"/>
+  </g>
+  <g fill="none" stroke="#ad956f" stroke-width="4" opacity=".6">
+    <path d="M365 523h470M365 604h470M365 690h470M365 785h470"/>
+    <path d="M422 465v435M520 465v435M680 465v435M778 465v435"/>
+  </g>
+  <g fill="#382e29" stroke="#d2b16d" stroke-width="3">
+    <path d="M288 574c0-28 16-50 34-50s34 22 34 50v77h-68Z" opacity=".9"/>
+    <path d="M844 574c0-28 16-50 34-50s34 22 34 50v77h-68Z" opacity=".9"/>
+  </g>
+  <g>
+    <path d="M395 465V339h410v126Z" fill="#b9a27d"/>
+    <path d="M417 339v-48h366v48Z" fill="#d1bb96"/>
+    <path d="M510 291v-47h180v47Z" fill="#c7b08a"/>
+    <path d="M600 244c-87 0-139-59-127-139 8-55 48-102 104-122-34 34-45 78-18 112 28 35 81 40 120 14 20 34 13 79-19 105-16 14-36 25-60 30Z" fill="url(#gsGold)"/>
+    <path d="M600 255V105" stroke="#d9b66a" stroke-width="7"/>
+    <path d="M573 136h54M600 93v63" stroke="#f2d992" stroke-width="7" stroke-linecap="round"/>
+    <path d="M600 244c-74 0-117-45-111-110 3-31 19-61 44-81-18 32-17 71 10 94 27 23 67 20 91-3 15 28 8 58-12 76-8 8-14 15-22 24Z" fill="#f6e5a7" opacity=".14"/>
+  </g>
+  <g>
+    <path d="M286 498V380l-24-18v-46l24-34 24 34v46l-24 18v118Z" fill="#a58d6a"/>
+    <path d="M914 498V380l-24-18v-46l24-34 24 34v46l-24 18v118Z" fill="#a58d6a"/>
+    <path d="M262 316c0-15 11-27 24-27s24 12 24 27-11 27-24 27-24-12-24-27Z" fill="url(#gsGold)"/>
+    <path d="M890 316c0-15 11-27 24-27s24 12 24 27-11 27-24 27-24-12-24-27Z" fill="url(#gsGold)"/>
+  </g>
+  <g fill="#ffd985" opacity=".8" filter="url(#gGlow)">
+    <circle cx="276" cy="447" r="4"/><circle cx="924" cy="447" r="4"/>
+    <circle cx="355" cy="727" r="4"/><circle cx="845" cy="727" r="4"/>
+  </g>
+  <path d="M0 900h1200v-80c-226 35-404 28-601 8C393 808 211 813 0 864Z" fill="#0b1624"/>
+  <rect width="1200" height="900" fill="#0b1624" opacity=".05"/>
+</svg>

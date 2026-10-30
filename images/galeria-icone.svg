@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="gicTitle">
+  <title id="gicTitle">Estudo de mosaico com a iconografia de São Jorge</title>
+  <defs>
+    <linearGradient id="icBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d5ac55"/>
+      <stop offset=".45" stop-color="#a8782f"/>
+      <stop offset="1" stop-color="#65401b"/>
+    </linearGradient>
+    <radialGradient id="icHalo">
+      <stop offset="0" stop-color="#fff2ba"/>
+      <stop offset=".55" stop-color="#e6c672"/>
+      <stop offset="1" stop-color="#a87631"/>
+    </radialGradient>
+    <linearGradient id="icCape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b52e3d"/>
+      <stop offset="1" stop-color="#5e101b"/>
+    </linearGradient>
+    <pattern id="tiles" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 0h12v12H0zM12 12h12v12H12z" fill="#fff" opacity=".035"/>
+      <path d="M12 0h12v12H12zM0 12h12v12H0z" fill="#3b230b" opacity=".055"/>
+    </pattern>
+    <filter id="icSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#icBg)"/>
+  <rect width="1200" height="900" fill="url(#tiles)"/>
+  <path d="M132 900V360C132 153 336 38 600 38s468 115 468 322v540Z" fill="#3d2917" opacity=".38"/>
+  <path d="M179 900V369C179 183 363 85 600 85s421 98 421 284v531Z" fill="url(#icBg)"/>
+  <path d="M179 900V369C179 183 363 85 600 85s421 98 421 284v531Z" fill="url(#tiles)"/>
+  <path d="M224 900V382C224 216 390 131 600 131s376 85 376 251v518Z" fill="#b68636"/>
+  <path d="M224 900V382C224 216 390 131 600 131s376 85 376 251v518Z" fill="url(#tiles)"/>
+  <circle cx="600" cy="420" r="232" fill="url(#icHalo)" opacity=".62" filter="url(#icSoft)"/>
+  <circle cx="600" cy="380" r="123" fill="url(#icHalo)" stroke="#f0d486" stroke-width="9"/>
+  <circle cx="600" cy="380" r="104" fill="none" stroke="#8b5d24" stroke-width="3" opacity=".75"/>
+  <g>
+    <circle cx="600" cy="370" r="57" fill="#4a2d20"/>
+    <path d="M555 344c18-27 38-40 61-40 29 0 50 17 43 50-3 14-14 20-29 15-20-7-20-30-6-37-19 3-34 16-40 35-4 16-10 22-29 22-11 0-18-18-20-36Z" fill="#2b1b17"/>
+    <path d="M574 424c18 9 40 9 58-2 11 15 4 32-13 39l-42-2c-11-11-13-23-3-35Z" fill="#3b2620"/>
+    <path d="M600 326v-39" stroke="#e4c77a" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M528 478c18-43 44-67 76-68 39-2 66 25 85 66 16 34 16 70 5 97l-169 1c-12-33-10-64 3-96Z" fill="#253149"/>
+    <path d="M550 450c-42 38-68 85-91 135-14 31 3 56 34 55 36-2 54-39 78-81 18-33 44-62 72-73Z" fill="url(#icCape)"/>
+    <path d="M587 470 752 796" stroke="#c29b57" stroke-width="9" stroke-linecap="round"/>
+    <path d="m752 796 23-50" stroke="#e8d18b" stroke-width="7" stroke-linecap="round"/>
+    <path d="M541 463c-12-20-2-41 21-51l59-25 21 44-63 30c-16 8-29 9-38 2Z" fill="#8e6a3a"/>
+    <path d="M575 429 748 774" stroke="#f05a45" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+  </g>
+  <g>
+    <path d="M700 826c-18-29-12-53 15-69 18-11 31-25 21-45 28 8 44 27 40 52 26-4 45 7 53 26-29 4-43 8-49 23-9 22-44 31-80 13Z" fill="#24462f"/>
+    <path d="M738 754c-6 18 1 31 14 43 8 7 11 14 7 23" fill="none" stroke="#8ea36d" stroke-width="4" stroke-linecap="round"/>
+    <path d="M724 800c16 9 41 14 65 4" fill="none" stroke="#7e3d27" stroke-width="5"/>
+  </g>
+  <g fill="none" stroke="#5e3b16" stroke-width="2" opacity=".35">
+    <path d="M276 184v716M924 184v716M224 900h752"/>
+    <path d="M179 369c144-97 233-158 421-238 188 80 277 141 421 238"/>
+  </g>
+  <g fill="#f3dd98" opacity=".6">
+    <circle cx="344" cy="291" r="6"/><circle cx="856" cy="291" r="6"/>
+    <circle cx="303" cy="721" r="4"/><circle cx="897" cy="721" r="4"/>
+  </g>
+  <rect width="1200" height="900" fill="#1b1007" opacity=".06"/>
+</svg>

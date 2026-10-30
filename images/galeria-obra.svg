@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="goTitle">
+  <title id="goTitle">Ilustração do canteiro de obras da futura Catedral ao amanhecer</title>
+  <defs>
+    <linearGradient id="obSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1a30"/>
+      <stop offset=".55" stop-color="#49536b"/>
+      <stop offset=".8" stop-color="#c98563"/>
+      <stop offset="1" stop-color="#efc486"/>
+    </linearGradient>
+    <linearGradient id="obGlow">
+      <stop offset="0" stop-color="#ffe6ad" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#e6a763" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="obStone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b5a184"/>
+      <stop offset="1" stop-color="#665948"/>
+    </linearGradient>
+    <filter id="obBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#obSky)"/>
+  <g fill="#fff" opacity=".25">
+    <circle cx="180" cy="110" r="1"/><circle cx="390" cy="170" r="1.2"/><circle cx="790" cy="118" r="1"/><circle cx="1080" cy="210" r="1.3"/><circle cx="920" cy="75" r=".8"/>
+  </g>
+  <circle cx="745" cy="600" r="330" fill="url(#obGlow)" filter="url(#obBlur)"/>
+  <circle cx="745" cy="612" r="57" fill="#f7d494" opacity=".48" filter="url(#obBlur)"/>
+  <path d="M0 634c175-54 294-46 426-12 154 40 277-23 443-26 121-2 228 25 331 59v245H0Z" fill="#1a2435"/>
+  <path d="M0 730c160-37 260-22 390 3 160 31 276-24 438-25 132-1 237 23 372 48v144H0Z" fill="#131c29"/>
+
+  <g>
+    <path d="M455 729V477l-67-39v-93l39-58 39 58v61l34 20v303Z" fill="#716552"/>
+    <path d="M745 729V477l-67-39v-93l39-58 39 58v61l34 20v303Z" fill="#716552"/>
+    <path d="M495 729V455h210v274Z" fill="url(#obStone)"/>
+    <path d="M525 729V487h150v242Z" fill="#887a63"/>
+    <path d="M558 499h84v230h-84Z" fill="#3a302a"/>
+    <path d="M600 499v230M558 593h84" stroke="#b38e52" stroke-width="3"/>
+    <path d="M485 455v-68h230v68" fill="none" stroke="#8b7c64" stroke-width="8"/>
+    <path d="M514 437v-37h172v37" fill="#4a3d34"/>
+    <path d="M549 387v-45h102v45Z" fill="#a19075"/>
+    <path d="M600 348c-52 0-74-40-59-85 8-24 25-43 48-54-19 23-21 49-4 65 15 15 40 15 56-1 9 26-1 55-22 66-6 3-12 6-19 9Z" fill="#2f2925"/>
+    <path d="M600 342v-74" stroke="#352c22" stroke-width="4"/>
+    <path d="M587 289h26M600 274v30" stroke="#3b3024" stroke-width="4" stroke-linecap="round"/>
+    <path d="M455 477h-64v252h64Z" fill="#6e6251" opacity=".55"/>
+  </g>
+
+  <g stroke="#d4a14f" stroke-width="3" fill="none" opacity=".85">
+    <path d="M920 741V267h-20l20-42 20 42h-20"/>
+    <path d="M920 277h-266M920 277l-100 80M742 277l-46 54"/>
+    <path d="M877 277v63M840 277v46M803 277v70"/>
+    <path d="M920 277v260M839 741v-62M1001 741v-62"/>
+  </g>
+  <g fill="#1a1b1f">
+    <path d="M220 767h337l-36-38H255Z"/>
+    <path d="M1010 777h124l-20-28h-85Z"/>
+    <rect x="306" y="729" width="170" height="9"/>
+    <rect x="360" y="693" width="63" height="35"/>
+    <circle cx="388" cy="729" r="12" fill="#2c3038"/>
+    <circle cx="444" cy="729" r="12" fill="#2c3038"/>
+  </g>
+  <g fill="none" stroke="#d6a14c" stroke-width="2" opacity=".3">
+    <path d="M540 729V455h210"/>
+  </g>
+  <g fill="none" stroke="#907858" stroke-width="2" opacity=".55">
+    <path d="M0 820h1200M0 854h1200M0 890h1200"/>
+    <path d="M215 785v115M636 785v115M975 785v115M1140 785v115"/>
+  </g>
+  <g fill="#0a121d" opacity=".85">
+    <path d="M0 790c89-24 173-16 248 2v108H0Z"/>
+    <path d="M1200 790c-89-24-173-16-248 2v108h248Z"/>
+  </g>
+  <g fill="#d6a14f" opacity=".85">
+    <circle cx="892" cy="316" r="4"/><circle cx="814" cy="400" r="4"/><circle cx="929" cy="499" r="4"/>
+  </g>
+  <rect width="1200" height="900" fill="#071120" opacity=".05"/>
+</svg>

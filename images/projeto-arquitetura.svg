@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="plantaTitle">
+  <title id="plantaTitle">Estudo arquitetônico ilustrativo da planta da Catedral de São Jorge</title>
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#9eb6c9" stroke-width=".6" opacity=".18"/>
+    </pattern>
+    <pattern id="gridSmall" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0v10" fill="none" stroke="#9eb6c9" stroke-width=".35" opacity=".09"/>
+    </pattern>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10263d"/>
+      <stop offset=".55" stop-color="#0a1c30"/>
+      <stop offset="1" stop-color="#061221"/>
+    </linearGradient>
+    <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#paper)"/>
+  <rect width="1400" height="1000" fill="url(#grid)"/>
+  <rect width="1400" height="1000" fill="url(#gridSmall)"/>
+  <g fill="none" stroke="#87acc7" stroke-width="1.5" opacity=".58">
+    <rect x="62" y="62" width="1276" height="876" rx="2"/>
+    <rect x="78" y="78" width="1244" height="844" rx="1"/>
+    <path d="M62 145h1276M62 855h1276M145 62v876M1255 62v876"/>
+  </g>
+  <g fill="none" stroke="#bedcf1" stroke-width="2.4" opacity=".78" filter="url(#blueGlow)">
+    <path d="M330 790V373c0-100 93-183 210-183h320c117 0 210 83 210 183v417"/>
+    <path d="M377 790V390c0-80 75-147 169-147h308c94 0 169 67 169 147v400"/>
+    <path d="M445 790V420c0-51 49-93 110-93h290c61 0 110 42 110 93v370"/>
+    <path d="M545 790V449c0-28 26-51 59-51h192c33 0 59 23 59 51v341"/>
+  </g>
+  <g fill="none" stroke="#8db4d0" stroke-width="1.5" opacity=".72">
+    <circle cx="700" cy="485" r="142"/>
+    <circle cx="700" cy="485" r="121"/>
+    <circle cx="700" cy="485" r="54"/>
+    <path d="M700 343v284M558 485h284M600 385l200 200M800 385 600 585"/>
+    <path d="M558 485h-50M842 485h50M700 343v-50M700 627v50"/>
+  </g>
+  <g fill="none" stroke="#a9cbe2" stroke-width="1.8" opacity=".75">
+    <path d="M355 300h78v80h-78zM967 300h78v80h-78zM355 640h78v90h-78zM967 640h78v90h-78z"/>
+    <path d="M372 300v80M394 300v80M416 300v80M970 300v80M992 300v80M1014 300v80"/>
+    <path d="M372 640v90M394 640v90M416 640v90M970 640v90M992 640v90M1014 640v90"/>
+  </g>
+  <g fill="none" stroke="#d8ecf9" stroke-width="2.5" opacity=".8">
+    <path d="M405 790v-34M995 790v-34M500 790v-24M900 790v-24"/>
+    <path d="M610 790v-52h180v52"/>
+    <path d="M700 738v52M607 764h186"/>
+  </g>
+  <g fill="none" stroke="#6f91a8" stroke-width="1" opacity=".5">
+    <path d="M205 790h990M205 830h990M180 870h1040"/>
+    <path d="M330 790v-100M1070 790v-100"/>
+    <path d="M205 790h-45v-45M1195 790h45v-45"/>
+  </g>
+  <g fill="#a8c9de" font-family="Arial, sans-serif" font-size="14" letter-spacing="2.5" opacity=".8">
+    <text x="150" y="125">ESTUDO ARQUITETÔNICO</text>
+    <text x="150" y="926">PLANTA BAIXA · ESCALA ILUSTRATIVA</text>
+    <text x="1065" y="926">CATEDRAL DE SÃO JORGE · SLM/PE</text>
+    <text x="508" y="882" font-size="11" letter-spacing="1.5">NÁRTEX</text>
+    <text x="682" y="882" font-size="11" letter-spacing="1.5">NAVE CENTRAL</text>
+    <text x="650" y="715" font-size="11" letter-spacing="1.5">ALTAR</text>
+    <text x="1175" y="250" font-size="11" letter-spacing="1.5">PLANTA</text>
+  </g>
+  <g fill="none" stroke="#cfe7f7" stroke-width="2">
+    <path d="M1070 116v50M1045 141h50"/>
+    <circle cx="1070" cy="141" r="12" opacity=".5"/>
+    <path d="M106 115h60M106 125h60M106 135h35"/>
+  </g>
+  <g stroke="#88a9bf" fill="none" stroke-width="1" opacity=".55">
+    <path d="M1240 100h40M1240 870h40"/>
+    <path d="M1260 100v770"/>
+    <path d="m1255 110 5-10 5 10M1255 860l5 10 5-10"/>
+  </g>
+  <g fill="none" stroke="#7fa3ba" stroke-width="1" opacity=".4">
+    <circle cx="190" cy="880" r="34"/>
+    <path d="M156 880h68M190 846v68"/>
+  </g>
+  <g fill="#0a1c30">
+    <rect x="62" y="62" width="1276" height="876" opacity=".1"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Emblema da Catedral de São Jorge</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3df9b"/>
+      <stop offset=".45" stop-color="#c9a24e"/>
+      <stop offset="1" stop-color="#9b742f"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a92735"/>
+      <stop offset="1" stop-color="#65121f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#061021" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="#0b1a30"/>
+  <circle cx="60" cy="60" r="55" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <circle cx="60" cy="60" r="49.5" fill="none" stroke="url(#gold)" stroke-width=".65" opacity=".7"/>
+  <g filter="url(#shadow)">
+    <path d="M60 24 84 34v25c0 19-11 31-24 38-13-7-24-19-24-38V34Z" fill="url(#red)" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M60 34v39M48 45h24M52 56h16" stroke="url(#gold)" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M60 76c-4-5-9-8-14-9 3 6 7 10 14 14 7-4 11-8 14-14-5 1-10 4-14 9Z" fill="url(#gold)" opacity=".9"/>
+  </g>
+  <path d="M28 31 64 67" stroke="url(#gold)" stroke-width="1.6" stroke-linecap="round" opacity=".75"/>
+  <path d="m28 31 1.4 5.2 4.8.9-3.4 3.6.8 5.1-4.6-2.4-4.6 2.4.8-5.1-3.4-3.6 4.8-.9Z" fill="url(#gold)" opacity=".9"/>
+</svg>

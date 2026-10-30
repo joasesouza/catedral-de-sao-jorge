@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="giTitle">
+  <title id="giTitle">Estudo visual do interior e da nave da Catedral</title>
+  <defs>
+    <linearGradient id="intBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#162840"/>
+      <stop offset=".48" stop-color="#472f35"/>
+      <stop offset="1" stop-color="#17151b"/>
+    </linearGradient>
+    <linearGradient id="intLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffedb9" stop-opacity=".76"/>
+      <stop offset="1" stop-color="#f1c174" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="intGold" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#f5df99"/>
+      <stop offset="1" stop-color="#8f662f"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#intBg)"/>
+  <g opacity=".5">
+    <circle cx="600" cy="270" r="270" fill="url(#intLight)" filter="url(#blur)"/>
+  </g>
+  <g fill="url(#intLight)">
+    <path d="M454 900 586 223h28L746 900Z" opacity=".58"/>
+    <path d="M386 900 568 240h15L598 900Z" opacity=".24"/>
+    <path d="M814 900 632 240h-15L602 900Z" opacity=".24"/>
+  </g>
+  <g fill="none" stroke="#a99069" stroke-width="5" opacity=".7">
+    <path d="M80 850V393c0-106 100-192 223-192h594c123 0 223 86 223 192v457"/>
+    <path d="M132 850V413c0-92 85-167 190-167h556c105 0 190 75 190 167v437"/>
+  </g>
+  <g fill="none" stroke="#d6bd8c" stroke-width="3" opacity=".6">
+    <path d="M208 850V447c0-66 57-120 127-120h530c70 0 127 54 127 120v403"/>
+    <path d="M278 850V470c0-48 40-87 89-87h466c49 0 89 39 89 87v380"/>
+  </g>
+  <g>
+    <path d="M410 360h380v250H410Z" fill="#613b32"/>
+    <path d="M430 380h340v210H430Z" fill="#2a2023"/>
+    <path d="M600 380v210M430 485h340" stroke="url(#intGold)" stroke-width="4"/>
+    <path d="M600 380v-92" stroke="#d6b46b" stroke-width="6"/>
+    <path d="M580 312h40M600 291v42" stroke="#ecd58e" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g fill="#261c20" stroke="#8c7250" stroke-width="3">
+    <path d="M480 580c0-22 11-40 25-40s25 18 25 40v129h-50Z"/>
+    <path d="M670 580c0-22 11-40 25-40s25 18 25 40v129h-50Z"/>
+    <path d="M559 552c0-26 14-47 31-47s31 21 31 47v130h-62Z"/>
+  </g>
+  <g fill="url(#intGold)" opacity=".9">
+    <circle cx="600" cy="257" r="59"/>
+    <circle cx="600" cy="257" r="50" fill="#694433"/>
+    <path d="M600 220v74M576 240h48" stroke="#f2d992" stroke-width="5"/>
+  </g>
+  <g fill="none" stroke="#7e674b" stroke-width="2">
+    <path d="M0 700h1200M0 736h1200M0 778h1200M0 828h1200"/>
+    <path d="M123 643h954M156 643v257M1044 643v257"/>
+  </g>
+  <g>
+    <path d="M162 791h310l28 66H134Z" fill="#241b1d"/>
+    <path d="M728 791h310l28 66H700Z" fill="#241b1d"/>
+    <path d="M172 778h290v17H172Z" fill="#4c352e"/>
+    <path d="M738 778h290v17H738Z" fill="#4c352e"/>
+    <path d="M151 863h330v27H136Z" fill="#1b1518"/>
+    <path d="M719 863h330v27H704Z" fill="#1b1518"/>
+    <path d="M185 902v-95M450 902v-95M750 902v-95M1015 902v-95" stroke="#3e2c29" stroke-width="7"/>
+  </g>
+  <g fill="#f0c47b" opacity=".75">
+    <circle cx="344" cy="557" r="3"/><circle cx="856" cy="557" r="3"/>
+    <ellipse cx="600" cy="646" rx="410" ry="64" fill="#ebbc6d" opacity=".07" filter="url(#softBlur)"/>
+  </g>
+  <rect width="1200" height="900" fill="#0b1624" opacity=".08"/>
+</svg>
